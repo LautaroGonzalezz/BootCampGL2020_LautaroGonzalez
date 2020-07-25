@@ -85,7 +85,6 @@ public void setSueldoBruto(double sueldoBruto) {
 	this.sueldoBruto = sueldoBruto;
 }
 
-
 public int compareTo(Empleado emp) {
     if (this.getSueldoBase() < emp.getSueldoBase()) {
         return -1;
